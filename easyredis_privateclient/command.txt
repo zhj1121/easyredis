@@ -1,0 +1,37 @@
+# This file contains all the statements that can be executed in the application
+# And complete the client prompt function at the same time
+
+# string
++set [key] [value]
+
++get [value]
+
++incr [key]
+
+#list
++lpush [key] [value...]
+
++rpop [key]
+
++lrange [key] [start] [end]
+
+#set
++sadd [key] [value...]
+
++smembers [key]
+
+#hash
++hset [key] [filed] [value]
+
++hget [key] [filed] [value]
+
+#sort set
++zadd key [score] [value] ...
+
++zrange key [start] [end] [withscore]
+
+#key
++exists [key]
+
++keys [*]
+

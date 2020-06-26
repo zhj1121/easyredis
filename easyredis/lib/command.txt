@@ -1,0 +1,63 @@
+# This file contains all the statements that can be executed in the application
+# And complete the client prompt function at the same time
+
+# string
++set [key] [value]
+
++get [value]
+
++incr [key]
+
+#list
++lpush [key] [value...]
+
++rpop [key]
+
++lrange [key] [start] [end]
+
+#set
++sadd [key] [value...]
+
++smembers [key]
+
+#hash
++hset [key] [filed] [value]
+
++hget [key] [filed] [value]
+
+#sort set
++zadd key [score] [value] ...
+
++zrange key [start] [end] [withscore]
+
+#key
++exists [key]
+
++keys [*]
+
+# 2020-06-25 14:41:58.518212
++lpush mylpushlist 1
+
+# 2020-06-25 14:45:04.111883
++lrange mylpushlist 0 -1
+
+# 2020-06-25 14:45:08.577048
++exit
+
+# 2020-06-25 14:45:26.268044
++lrange mylpushlist 0 -1
+
+# 2020-06-25 14:53:24.299270
++lpush mylpushlist 1
+
+# 2020-06-25 14:54:11.706320
++author zhj zhj
+
+# 2020-06-25 14:54:20.921415
++lpush mylpushlist 2
+
+# 2020-06-25 14:54:28.372862
++lpush mylpushlist zhj
+
+# 2020-06-25 14:54:31.262031
++exit

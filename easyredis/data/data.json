@@ -1,0 +1,26 @@
+{
+  "count": {
+    "type": "string",
+    "value": "{\"name\": \"count\", \"value\": 2}"
+  },
+  "detail": {
+    "type": "hash",
+    "value": "{\"name\": \"detail\", \"dict\": {\"name\": \"zhj\"}}"
+  },
+  "mylist": {
+    "type": "list",
+    "value": "{\"name\": \"mylist\", \"list\": [\"3\"]}"
+  },
+  "myset": {
+    "type": "set",
+    "value": "{\"name\": \"myset\", \"set\": [\"1\", \"2\", \"3\"]}"
+  },
+  "myzset1121": {
+    "type": "zset",
+    "value": "{\"name\": \"myzset1121\", \"keyList\": [\"a\", \"c\", \"d\"], \"scoreList\": [1, 2, 2]}"
+  },
+  "yu": {
+    "type": "zset",
+    "value": "{\"name\": \"yu\", \"keyList\": [\"b\", \"a\"], \"scoreList\": [2, 3]}"
+  }
+}
